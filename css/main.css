@@ -261,18 +261,72 @@ li {display: inline;
 
   /* Section-c */
 
+.main__section-c__principal-head {text-transform: uppercase;
+                                  font-family: "Montserrat";
+                                  font-weight: bold;
+                                  font-size: 32px;
+                                  line-height: 53.66px;
+                                  margin-top: 110px;
+                                  margin-bottom: 20px;
+                                  margin-left: 16.11%;}
+
+.main__section-c__sub-head {font-family: "Open Sans";
+                            font-size: 16px;
+                            line-height: 20px;
+                            margin-left: 16.11%;
+                            color: #9aa0ab;
+                            margin-bottom: 40px;}
+
+.main__section-c__container {display: flex;
+                             flex-flow: row wrap;
+                             justify-content: center;
+                            }
+
+.main__section-c__container__column1,
+.main__section-c__container__column2,
+.main__section-c__container__column3  {display: flex;
+                                      flex-flow: row wrap;
+                                      width: 23%;}
+
+.Joey,
+.Matt,
+.Mike {margin: 0px;}
+
+.main__section-c__sub-container1__column1,
+.main__section-c__sub-container1__column2,
+.main__section-c__sub-container1__column3,
+.main__section-c__sub-container2__column1,
+.main__section-c__sub-container2__column2,
+.main__section-c__sub-container2__column3 {width: 50%;}
+
+.main__section-c__container__name {text-transform: uppercase;
+                                  font-family: "Montserrat";
+                                  font-weight: bold;
+                                  font-size: 22px;
+                                  line-height: 53.66px;}
+
+.main__section-c__container__job-title {color: #f0454c;
+                                        font-family: "Open Sans";
+                                        font-size: 14px;
+                                        line-height: 20px;}
+
+.main__section-c__container__par {color: #9aa0ab;
+                                  font-family: "Open Sans";
+                                  font-size: 14px;
+                                  line-height: 20px;
+                                  width: 100%;}
 
 
+.final-header {text-transform: uppercase;
+               color: #fa5c65;
+               font-family: "Montserrat";
+               font-size: 14px;
+               line-height: 20px;
+               margin-top: 70px;}
 
-
-
-
-
-
-
-
-
-
+.final-header,
+.copy         {text-align: right;
+              margin-right: 16%;}
 
 
 
