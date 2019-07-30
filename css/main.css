@@ -107,10 +107,11 @@ textarea {
 {
   /* Header */
 
-header {background-image: url(../img/hero.png);
+header {background-image: linear-gradient(black, black), url(../img/hero.png);
         background-size: 100% 100%;
         background-repeat: no-repeat;
-        height: 1010px;}
+        height: 1010px;
+        background-blend-mode: saturation;}
 
 .header__logo {background-color: #fa5c65;
               color: white;
